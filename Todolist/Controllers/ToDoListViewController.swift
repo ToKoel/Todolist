@@ -24,7 +24,7 @@ class ToDoListViewController: UITableViewController {
     
     }
 
-    //MARK -Tableview Datasource Methods
+    // MARK: -Tableview Datasource Methods
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemArray.count
     }
@@ -41,7 +41,7 @@ class ToDoListViewController: UITableViewController {
         return cell
     }
     
-    //MARK - TableView Delegate Methods
+    // MARK: - TableView Delegate Methods
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //select and deselect table entry and toggle checkmark
@@ -52,8 +52,7 @@ class ToDoListViewController: UITableViewController {
         tableView.reloadData()
     }
     
-    //MARK - Add New Items
-    
+    // MARK: - Add New Items
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
         var textField = UITextField()
@@ -79,7 +78,7 @@ class ToDoListViewController: UITableViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    //MARK - Model Manipulation Methods
+    // MARK: - Model Manipulation Methods
     func saveItems() {
         let encoder = PropertyListEncoder()
         do {
