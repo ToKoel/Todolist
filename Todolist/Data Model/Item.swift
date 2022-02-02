@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Item : Encodable {
+class Item : Codable {
     // Different Comment
     var title: String = ""
     var done: Bool = false
