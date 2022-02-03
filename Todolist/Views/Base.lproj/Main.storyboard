@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rsZ-u8-TxW">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -77,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="465" y="79"/>
         </scene>
-        <!--ToDo-->
+        <!--To(bi)Do-->
         <scene sceneID="AJC-kb-Ota">
             <objects>
                 <tableViewController id="QY9-Nq-beS" customClass="CategoryViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
@@ -100,7 +99,7 @@
                             <outlet property="delegate" destination="QY9-Nq-beS" id="PVa-Ra-3Xa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ToDo" id="8Z4-qd-bku">
+                    <navigationItem key="navigationItem" title="To(bi)Do" id="8Z4-qd-bku">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="LVS-RC-L10">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
